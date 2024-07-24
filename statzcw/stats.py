@@ -2,32 +2,39 @@
 from typing import List
 
 def zcount(data: List[float]) -> float :
-    pass
+    return sum(1 for x in data if x > 0) / len(data)
 
 def zmean(data: List[float]) -> float :
-    pass
+    return sum(data) / len(data)
 
 def zmode(data: List[float]) -> float :
-    pass
+    return [num for num in data if data.count(num) == data.count(max(data))] 
 
 def zmedian(data: List[float]) -> float :
-    pass
+    if len(data) % 2 == 0:
+        mid = len(data) // 2
+        return (data[mid] + data[mid - 1]) / 2
+    else:
+        return len(data) // 2
+     
 
 def zvariance(data: List[float]) -> float :
-    pass
+    mean = zmean(data)
+    return sum((x - mean) ** 2 for x in data) / (len(data) - 1)
 	
 def zstddev(data: List[float]) -> float :
     # sqrt of variance
-    pass
+    var = zvariance(data)
+    return var ** 0.5
 
 def zstderr(data: List[float]) -> float :
-    pass
+    return zstddev(data) / zmean(data)
 
 def cov(a, b):
-    pass
+    return cov(a, b) / (zstddev(a) * zstddev(b))
 
 def zcorr(datax: List[float], datay: List[float]) -> float :
-    pass
+    return cov(datax, datay) * (zstddev(datax) / zstddev(datay))
 
 
 def readDataFile(file):

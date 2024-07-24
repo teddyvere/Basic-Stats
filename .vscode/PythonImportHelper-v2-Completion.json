@@ -1,0 +1,632 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "importPath": "count",
+        "description": "count",
+        "isExtraImport": true,
+        "detail": "count",
+        "documentation": {}
+    },
+    {
+        "label": "readDataSets",
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "isExtraImport": true,
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "isExtraImport": true,
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "argv",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argv",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "statistics",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statistics",
+        "description": "statistics",
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "mean",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "variance",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "pvariance",
+        "importPath": "statistics",
+        "description": "statistics",
+        "isExtraImport": true,
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 2,
+        "importPath": "statzcw.count",
+        "description": "statzcw.count",
+        "peekOfCode": "def count(csv_file: pd.DataFrame) -> float :\n    return pd.read_csv(csv_file).count()\nprint(count(csv_file))\nprint(count(csv_file2))\nprint(count(csv_file3))\nprint(count(csv_file0))",
+        "detail": "statzcw.count",
+        "documentation": {}
+    },
+    {
+        "label": "csv_file",
+        "kind": 5,
+        "importPath": "statzcw.count",
+        "description": "statzcw.count",
+        "peekOfCode": "csv_file = 'dataOne.csv'\ncsv_file2 = 'dataTwo.csv'\ncsv_file3 = 'dataThree.csv'\ncsv_file0 = 'dataZero.csv'\ndef count(csv_file: pd.DataFrame) -> float :\n    return pd.read_csv(csv_file).count()\nprint(count(csv_file))\nprint(count(csv_file2))\nprint(count(csv_file3))\nprint(count(csv_file0))",
+        "detail": "statzcw.count",
+        "documentation": {}
+    },
+    {
+        "label": "csv_file2",
+        "kind": 5,
+        "importPath": "statzcw.count",
+        "description": "statzcw.count",
+        "peekOfCode": "csv_file2 = 'dataTwo.csv'\ncsv_file3 = 'dataThree.csv'\ncsv_file0 = 'dataZero.csv'\ndef count(csv_file: pd.DataFrame) -> float :\n    return pd.read_csv(csv_file).count()\nprint(count(csv_file))\nprint(count(csv_file2))\nprint(count(csv_file3))\nprint(count(csv_file0))",
+        "detail": "statzcw.count",
+        "documentation": {}
+    },
+    {
+        "label": "csv_file3",
+        "kind": 5,
+        "importPath": "statzcw.count",
+        "description": "statzcw.count",
+        "peekOfCode": "csv_file3 = 'dataThree.csv'\ncsv_file0 = 'dataZero.csv'\ndef count(csv_file: pd.DataFrame) -> float :\n    return pd.read_csv(csv_file).count()\nprint(count(csv_file))\nprint(count(csv_file2))\nprint(count(csv_file3))\nprint(count(csv_file0))",
+        "detail": "statzcw.count",
+        "documentation": {}
+    },
+    {
+        "label": "csv_file0",
+        "kind": 5,
+        "importPath": "statzcw.count",
+        "description": "statzcw.count",
+        "peekOfCode": "csv_file0 = 'dataZero.csv'\ndef count(csv_file: pd.DataFrame) -> float :\n    return pd.read_csv(csv_file).count()\nprint(count(csv_file))\nprint(count(csv_file2))\nprint(count(csv_file3))\nprint(count(csv_file0))",
+        "detail": "statzcw.count",
+        "documentation": {}
+    },
+    {
+        "label": "cov",
+        "kind": 2,
+        "importPath": "statzcw.cov",
+        "description": "statzcw.cov",
+        "peekOfCode": "def cov(data1: pd.DataFrame)-> float :\n    return data1.cov().iloc[0,1]\nprint(cov(csvfile1))\nprint(cov(csvfile2))\nprint(cov(csvfile3))\nprint(cov(csvfile0))",
+        "detail": "statzcw.cov",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile1",
+        "kind": 5,
+        "importPath": "statzcw.cov",
+        "description": "statzcw.cov",
+        "peekOfCode": "csvfile1 = pd.read_csv('dataOne.csv')\ncsvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef cov(data1: pd.DataFrame)-> float :\n    return data1.cov().iloc[0,1]\nprint(cov(csvfile1))\nprint(cov(csvfile2))\nprint(cov(csvfile3))\nprint(cov(csvfile0))",
+        "detail": "statzcw.cov",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile2",
+        "kind": 5,
+        "importPath": "statzcw.cov",
+        "description": "statzcw.cov",
+        "peekOfCode": "csvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef cov(data1: pd.DataFrame)-> float :\n    return data1.cov().iloc[0,1]\nprint(cov(csvfile1))\nprint(cov(csvfile2))\nprint(cov(csvfile3))\nprint(cov(csvfile0))",
+        "detail": "statzcw.cov",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile3",
+        "kind": 5,
+        "importPath": "statzcw.cov",
+        "description": "statzcw.cov",
+        "peekOfCode": "csvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef cov(data1: pd.DataFrame)-> float :\n    return data1.cov().iloc[0,1]\nprint(cov(csvfile1))\nprint(cov(csvfile2))\nprint(cov(csvfile3))\nprint(cov(csvfile0))",
+        "detail": "statzcw.cov",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile0",
+        "kind": 5,
+        "importPath": "statzcw.cov",
+        "description": "statzcw.cov",
+        "peekOfCode": "csvfile0 = pd.read_csv('dataZero.csv')\ndef cov(data1: pd.DataFrame)-> float :\n    return data1.cov().iloc[0,1]\nprint(cov(csvfile1))\nprint(cov(csvfile2))\nprint(cov(csvfile3))\nprint(cov(csvfile0))",
+        "detail": "statzcw.cov",
+        "documentation": {}
+    },
+    {
+        "label": "zmean",
+        "kind": 2,
+        "importPath": "statzcw.mean",
+        "description": "statzcw.mean",
+        "peekOfCode": "def zmean(csv: pd.DataFrame) -> float :\n    return csv.mean()\nprint(zmean(csvfile1))\nprint(zmean(csvfile2))\nprint(zmean(csvfile3))\nprint(zmean(csvfile0))",
+        "detail": "statzcw.mean",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile1",
+        "kind": 5,
+        "importPath": "statzcw.mean",
+        "description": "statzcw.mean",
+        "peekOfCode": "csvfile1 = pd.read_csv('dataOne.csv')\ncsvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmean(csv: pd.DataFrame) -> float :\n    return csv.mean()\nprint(zmean(csvfile1))\nprint(zmean(csvfile2))\nprint(zmean(csvfile3))\nprint(zmean(csvfile0))",
+        "detail": "statzcw.mean",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile2",
+        "kind": 5,
+        "importPath": "statzcw.mean",
+        "description": "statzcw.mean",
+        "peekOfCode": "csvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmean(csv: pd.DataFrame) -> float :\n    return csv.mean()\nprint(zmean(csvfile1))\nprint(zmean(csvfile2))\nprint(zmean(csvfile3))\nprint(zmean(csvfile0))",
+        "detail": "statzcw.mean",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile3",
+        "kind": 5,
+        "importPath": "statzcw.mean",
+        "description": "statzcw.mean",
+        "peekOfCode": "csvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmean(csv: pd.DataFrame) -> float :\n    return csv.mean()\nprint(zmean(csvfile1))\nprint(zmean(csvfile2))\nprint(zmean(csvfile3))\nprint(zmean(csvfile0))",
+        "detail": "statzcw.mean",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile0",
+        "kind": 5,
+        "importPath": "statzcw.mean",
+        "description": "statzcw.mean",
+        "peekOfCode": "csvfile0 = pd.read_csv('dataZero.csv')\ndef zmean(csv: pd.DataFrame) -> float :\n    return csv.mean()\nprint(zmean(csvfile1))\nprint(zmean(csvfile2))\nprint(zmean(csvfile3))\nprint(zmean(csvfile0))",
+        "detail": "statzcw.mean",
+        "documentation": {}
+    },
+    {
+        "label": "zmedian",
+        "kind": 2,
+        "importPath": "statzcw.median",
+        "description": "statzcw.median",
+        "peekOfCode": "def zmedian(csv: pd.DataFrame) -> float :\n   return csv.median()\nprint(zmedian(csvfile1))\nprint(zmedian(csvfile2))\nprint(zmedian(csvfile3))\nprint(zmedian(csvfile0))",
+        "detail": "statzcw.median",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile1",
+        "kind": 5,
+        "importPath": "statzcw.median",
+        "description": "statzcw.median",
+        "peekOfCode": "csvfile1 = pd.read_csv('dataOne.csv')\ncsvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmedian(csv: pd.DataFrame) -> float :\n   return csv.median()\nprint(zmedian(csvfile1))\nprint(zmedian(csvfile2))\nprint(zmedian(csvfile3))\nprint(zmedian(csvfile0))",
+        "detail": "statzcw.median",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile2",
+        "kind": 5,
+        "importPath": "statzcw.median",
+        "description": "statzcw.median",
+        "peekOfCode": "csvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmedian(csv: pd.DataFrame) -> float :\n   return csv.median()\nprint(zmedian(csvfile1))\nprint(zmedian(csvfile2))\nprint(zmedian(csvfile3))\nprint(zmedian(csvfile0))",
+        "detail": "statzcw.median",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile3",
+        "kind": 5,
+        "importPath": "statzcw.median",
+        "description": "statzcw.median",
+        "peekOfCode": "csvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmedian(csv: pd.DataFrame) -> float :\n   return csv.median()\nprint(zmedian(csvfile1))\nprint(zmedian(csvfile2))\nprint(zmedian(csvfile3))\nprint(zmedian(csvfile0))",
+        "detail": "statzcw.median",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile0",
+        "kind": 5,
+        "importPath": "statzcw.median",
+        "description": "statzcw.median",
+        "peekOfCode": "csvfile0 = pd.read_csv('dataZero.csv')\ndef zmedian(csv: pd.DataFrame) -> float :\n   return csv.median()\nprint(zmedian(csvfile1))\nprint(zmedian(csvfile2))\nprint(zmedian(csvfile3))\nprint(zmedian(csvfile0))",
+        "detail": "statzcw.median",
+        "documentation": {}
+    },
+    {
+        "label": "zmode",
+        "kind": 2,
+        "importPath": "statzcw.mode",
+        "description": "statzcw.mode",
+        "peekOfCode": "def zmode(csv: pd.DataFrame) -> float :\n    return csv.mode().iloc[0]\nprint(zmode(csvfile1))\nprint(zmode(csvfile2))\nprint(zmode(csvfile3))\nprint(zmode(csvfile0))",
+        "detail": "statzcw.mode",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile1",
+        "kind": 5,
+        "importPath": "statzcw.mode",
+        "description": "statzcw.mode",
+        "peekOfCode": "csvfile1 = pd.read_csv('dataOne.csv')\ncsvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmode(csv: pd.DataFrame) -> float :\n    return csv.mode().iloc[0]\nprint(zmode(csvfile1))\nprint(zmode(csvfile2))\nprint(zmode(csvfile3))\nprint(zmode(csvfile0))",
+        "detail": "statzcw.mode",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile2",
+        "kind": 5,
+        "importPath": "statzcw.mode",
+        "description": "statzcw.mode",
+        "peekOfCode": "csvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmode(csv: pd.DataFrame) -> float :\n    return csv.mode().iloc[0]\nprint(zmode(csvfile1))\nprint(zmode(csvfile2))\nprint(zmode(csvfile3))\nprint(zmode(csvfile0))",
+        "detail": "statzcw.mode",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile3",
+        "kind": 5,
+        "importPath": "statzcw.mode",
+        "description": "statzcw.mode",
+        "peekOfCode": "csvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zmode(csv: pd.DataFrame) -> float :\n    return csv.mode().iloc[0]\nprint(zmode(csvfile1))\nprint(zmode(csvfile2))\nprint(zmode(csvfile3))\nprint(zmode(csvfile0))",
+        "detail": "statzcw.mode",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile0",
+        "kind": 5,
+        "importPath": "statzcw.mode",
+        "description": "statzcw.mode",
+        "peekOfCode": "csvfile0 = pd.read_csv('dataZero.csv')\ndef zmode(csv: pd.DataFrame) -> float :\n    return csv.mode().iloc[0]\nprint(zmode(csvfile1))\nprint(zmode(csvfile2))\nprint(zmode(csvfile3))\nprint(zmode(csvfile0))",
+        "detail": "statzcw.mode",
+        "documentation": {}
+    },
+    {
+        "label": "zcount",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def zcount(data: List[float]) -> float :\n    return sum(1 for x in data if x > 0) / len(data)\ndef zmean(data: List[float]) -> float :\n    return sum(data) / len(data)\ndef zmode(data: List[float]) -> float :\n    return [num for num in data if data.count(num) == data.count(max(data))] \ndef zmedian(data: List[float]) -> float :\n    if len(data) % 2 == 0:\n        mid = len(data) // 2\n        return (data[mid] + data[mid - 1]) / 2",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "zmean",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def zmean(data: List[float]) -> float :\n    return sum(data) / len(data)\ndef zmode(data: List[float]) -> float :\n    return [num for num in data if data.count(num) == data.count(max(data))] \ndef zmedian(data: List[float]) -> float :\n    if len(data) % 2 == 0:\n        mid = len(data) // 2\n        return (data[mid] + data[mid - 1]) / 2\n    else:\n        return len(data) // 2",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "zmode",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def zmode(data: List[float]) -> float :\n    return [num for num in data if data.count(num) == data.count(max(data))] \ndef zmedian(data: List[float]) -> float :\n    if len(data) % 2 == 0:\n        mid = len(data) // 2\n        return (data[mid] + data[mid - 1]) / 2\n    else:\n        return len(data) // 2\ndef zvariance(data: List[float]) -> float :\n    mean = zmean(data)",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "zmedian",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def zmedian(data: List[float]) -> float :\n    if len(data) % 2 == 0:\n        mid = len(data) // 2\n        return (data[mid] + data[mid - 1]) / 2\n    else:\n        return len(data) // 2\ndef zvariance(data: List[float]) -> float :\n    mean = zmean(data)\n    return sum((x - mean) ** 2 for x in data) / (len(data) - 1)\ndef zstddev(data: List[float]) -> float :",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "zvariance",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def zvariance(data: List[float]) -> float :\n    mean = zmean(data)\n    return sum((x - mean) ** 2 for x in data) / (len(data) - 1)\ndef zstddev(data: List[float]) -> float :\n    # sqrt of variance\n    var = zvariance(data)\n    return var ** 0.5\ndef zstderr(data: List[float]) -> float :\n    return zstddev(data) / zmean(data)\ndef cov(a, b):",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "zstddev",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def zstddev(data: List[float]) -> float :\n    # sqrt of variance\n    var = zvariance(data)\n    return var ** 0.5\ndef zstderr(data: List[float]) -> float :\n    return zstddev(data) / zmean(data)\ndef cov(a, b):\n    return cov(a, b) / (zstddev(a) * zstddev(b))\ndef zcorr(datax: List[float], datay: List[float]) -> float :\n    return cov(datax, datay) * (zstddev(datax) / zstddev(datay))",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "zstderr",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def zstderr(data: List[float]) -> float :\n    return zstddev(data) / zmean(data)\ndef cov(a, b):\n    return cov(a, b) / (zstddev(a) * zstddev(b))\ndef zcorr(datax: List[float], datay: List[float]) -> float :\n    return cov(datax, datay) * (zstddev(datax) / zstddev(datay))\ndef readDataFile(file):\n    x,y = [], []\n    with open(file) as f:\n        first_line = f.readline() # consume headers",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "cov",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def cov(a, b):\n    return cov(a, b) / (zstddev(a) * zstddev(b))\ndef zcorr(datax: List[float], datay: List[float]) -> float :\n    return cov(datax, datay) * (zstddev(datax) / zstddev(datay))\ndef readDataFile(file):\n    x,y = [], []\n    with open(file) as f:\n        first_line = f.readline() # consume headers\n        for l in f:\n            row = l.split(',')",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "zcorr",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def zcorr(datax: List[float], datay: List[float]) -> float :\n    return cov(datax, datay) * (zstddev(datax) / zstddev(datay))\ndef readDataFile(file):\n    x,y = [], []\n    with open(file) as f:\n        first_line = f.readline() # consume headers\n        for l in f:\n            row = l.split(',')\n            #print(row, type(row))\n            x.append(float(row[0]))",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "readDataFile",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def readDataFile(file):\n    x,y = [], []\n    with open(file) as f:\n        first_line = f.readline() # consume headers\n        for l in f:\n            row = l.split(',')\n            #print(row, type(row))\n            x.append(float(row[0]))\n            y.append(float(row[1]))\n    return (x,y)",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "readDataSets",
+        "kind": 2,
+        "importPath": "statzcw.stats",
+        "description": "statzcw.stats",
+        "peekOfCode": "def readDataSets(files):\n    data = {}\n    for file in files:\n        twoLists = readDataFile(file)\n        data[file] = twoLists\n    return data",
+        "detail": "statzcw.stats",
+        "documentation": {}
+    },
+    {
+        "label": "TestCountFunction",
+        "kind": 6,
+        "importPath": "statzcw.test_count",
+        "description": "statzcw.test_count",
+        "peekOfCode": "class TestCountFunction(unittest.TestCase):\n    def setUp(self):\n        \"\"\"Create temporary CSV files for the tests.\"\"\"\n        self.csv_file = 'test_dataOne.csv'\n        self.csv_file2 = 'test_dataTwo.csv'\n        self.csv_file3 = 'test_dataThree.csv'\n        self.csv_file0 = 'test_dataZero.csv'\n        # Create example DataFrames and save them as CSV files\n        df1 = pd.DataFrame({\n            'A': [1, 2, None],",
+        "detail": "statzcw.test_count",
+        "documentation": {}
+    },
+    {
+        "label": "zvariance",
+        "kind": 2,
+        "importPath": "statzcw.varience",
+        "description": "statzcw.varience",
+        "peekOfCode": "def zvariance(data1: pd.DataFrame) -> float :\n    return data1.var()\nprint(zvariance(csvfile1))\nprint(zvariance(csvfile2))\nprint(zvariance(csvfile3))\nprint(zvariance(csvfile0))",
+        "detail": "statzcw.varience",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile1",
+        "kind": 5,
+        "importPath": "statzcw.varience",
+        "description": "statzcw.varience",
+        "peekOfCode": "csvfile1 = pd.read_csv('dataOne.csv')\ncsvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zvariance(data1: pd.DataFrame) -> float :\n    return data1.var()\nprint(zvariance(csvfile1))\nprint(zvariance(csvfile2))\nprint(zvariance(csvfile3))\nprint(zvariance(csvfile0))",
+        "detail": "statzcw.varience",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile2",
+        "kind": 5,
+        "importPath": "statzcw.varience",
+        "description": "statzcw.varience",
+        "peekOfCode": "csvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zvariance(data1: pd.DataFrame) -> float :\n    return data1.var()\nprint(zvariance(csvfile1))\nprint(zvariance(csvfile2))\nprint(zvariance(csvfile3))\nprint(zvariance(csvfile0))",
+        "detail": "statzcw.varience",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile3",
+        "kind": 5,
+        "importPath": "statzcw.varience",
+        "description": "statzcw.varience",
+        "peekOfCode": "csvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zvariance(data1: pd.DataFrame) -> float :\n    return data1.var()\nprint(zvariance(csvfile1))\nprint(zvariance(csvfile2))\nprint(zvariance(csvfile3))\nprint(zvariance(csvfile0))",
+        "detail": "statzcw.varience",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile0",
+        "kind": 5,
+        "importPath": "statzcw.varience",
+        "description": "statzcw.varience",
+        "peekOfCode": "csvfile0 = pd.read_csv('dataZero.csv')\ndef zvariance(data1: pd.DataFrame) -> float :\n    return data1.var()\nprint(zvariance(csvfile1))\nprint(zvariance(csvfile2))\nprint(zvariance(csvfile3))\nprint(zvariance(csvfile0))",
+        "detail": "statzcw.varience",
+        "documentation": {}
+    },
+    {
+        "label": "zcorr",
+        "kind": 2,
+        "importPath": "statzcw.zcorr",
+        "description": "statzcw.zcorr",
+        "peekOfCode": "def zcorr(csv: pd.DataFrame) -> float :\n    return csv.corr().iloc[0,1]\nprint(zcorr(csvfile1))\nprint(zcorr(csvfile2))\nprint(zcorr(csvfile3))\nprint(zcorr(csvfile0))",
+        "detail": "statzcw.zcorr",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile1",
+        "kind": 5,
+        "importPath": "statzcw.zcorr",
+        "description": "statzcw.zcorr",
+        "peekOfCode": "csvfile1 = pd.read_csv('dataOne.csv')\ncsvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zcorr(csv: pd.DataFrame) -> float :\n    return csv.corr().iloc[0,1]\nprint(zcorr(csvfile1))\nprint(zcorr(csvfile2))\nprint(zcorr(csvfile3))\nprint(zcorr(csvfile0))",
+        "detail": "statzcw.zcorr",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile2",
+        "kind": 5,
+        "importPath": "statzcw.zcorr",
+        "description": "statzcw.zcorr",
+        "peekOfCode": "csvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zcorr(csv: pd.DataFrame) -> float :\n    return csv.corr().iloc[0,1]\nprint(zcorr(csvfile1))\nprint(zcorr(csvfile2))\nprint(zcorr(csvfile3))\nprint(zcorr(csvfile0))",
+        "detail": "statzcw.zcorr",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile3",
+        "kind": 5,
+        "importPath": "statzcw.zcorr",
+        "description": "statzcw.zcorr",
+        "peekOfCode": "csvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zcorr(csv: pd.DataFrame) -> float :\n    return csv.corr().iloc[0,1]\nprint(zcorr(csvfile1))\nprint(zcorr(csvfile2))\nprint(zcorr(csvfile3))\nprint(zcorr(csvfile0))",
+        "detail": "statzcw.zcorr",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile0",
+        "kind": 5,
+        "importPath": "statzcw.zcorr",
+        "description": "statzcw.zcorr",
+        "peekOfCode": "csvfile0 = pd.read_csv('dataZero.csv')\ndef zcorr(csv: pd.DataFrame) -> float :\n    return csv.corr().iloc[0,1]\nprint(zcorr(csvfile1))\nprint(zcorr(csvfile2))\nprint(zcorr(csvfile3))\nprint(zcorr(csvfile0))",
+        "detail": "statzcw.zcorr",
+        "documentation": {}
+    },
+    {
+        "label": "zsetderr",
+        "kind": 2,
+        "importPath": "statzcw.zstderr",
+        "description": "statzcw.zstderr",
+        "peekOfCode": "def zsetderr(csv: pd.DataFrame) -> float :\n    return csv.std()\nprint(zsetderr(csvfile1))\nprint(zsetderr(csvfile2))\nprint(zsetderr(csvfile3))\nprint(zsetderr(csvfile0))",
+        "detail": "statzcw.zstderr",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile1",
+        "kind": 5,
+        "importPath": "statzcw.zstderr",
+        "description": "statzcw.zstderr",
+        "peekOfCode": "csvfile1 = pd.read_csv('dataOne.csv')\ncsvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zsetderr(csv: pd.DataFrame) -> float :\n    return csv.std()\nprint(zsetderr(csvfile1))\nprint(zsetderr(csvfile2))\nprint(zsetderr(csvfile3))\nprint(zsetderr(csvfile0))",
+        "detail": "statzcw.zstderr",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile2",
+        "kind": 5,
+        "importPath": "statzcw.zstderr",
+        "description": "statzcw.zstderr",
+        "peekOfCode": "csvfile2 = pd.read_csv('dataTwo.csv')\ncsvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zsetderr(csv: pd.DataFrame) -> float :\n    return csv.std()\nprint(zsetderr(csvfile1))\nprint(zsetderr(csvfile2))\nprint(zsetderr(csvfile3))\nprint(zsetderr(csvfile0))",
+        "detail": "statzcw.zstderr",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile3",
+        "kind": 5,
+        "importPath": "statzcw.zstderr",
+        "description": "statzcw.zstderr",
+        "peekOfCode": "csvfile3 = pd.read_csv('dataThree.csv')\ncsvfile0 = pd.read_csv('dataZero.csv')\ndef zsetderr(csv: pd.DataFrame) -> float :\n    return csv.std()\nprint(zsetderr(csvfile1))\nprint(zsetderr(csvfile2))\nprint(zsetderr(csvfile3))\nprint(zsetderr(csvfile0))",
+        "detail": "statzcw.zstderr",
+        "documentation": {}
+    },
+    {
+        "label": "csvfile0",
+        "kind": 5,
+        "importPath": "statzcw.zstderr",
+        "description": "statzcw.zstderr",
+        "peekOfCode": "csvfile0 = pd.read_csv('dataZero.csv')\ndef zsetderr(csv: pd.DataFrame) -> float :\n    return csv.std()\nprint(zsetderr(csvfile1))\nprint(zsetderr(csvfile2))\nprint(zsetderr(csvfile3))\nprint(zsetderr(csvfile0))",
+        "detail": "statzcw.zstderr",
+        "documentation": {}
+    },
+    {
+        "label": "data0",
+        "kind": 5,
+        "importPath": "test_stats",
+        "description": "test_stats",
+        "peekOfCode": "data0 = [1.0, 2.0, 3.0, 4.0, 5.0]\ndata2 = [1.0, 2.0, 2.0, 4.0, 5.0]\ntry:\n    assert zcount(data0) == 5\n    assert zmean(data0) == 3.0\n    assert zmode(data2) == 2.0\n    assert zmedian(data2) == 2.0\n    assert zmedian(data0) == 3.0\nexcept AssertionError as e:\n    print(e)",
+        "detail": "test_stats",
+        "documentation": {}
+    },
+    {
+        "label": "data2",
+        "kind": 5,
+        "importPath": "test_stats",
+        "description": "test_stats",
+        "peekOfCode": "data2 = [1.0, 2.0, 2.0, 4.0, 5.0]\ntry:\n    assert zcount(data0) == 5\n    assert zmean(data0) == 3.0\n    assert zmode(data2) == 2.0\n    assert zmedian(data2) == 2.0\n    assert zmedian(data0) == 3.0\nexcept AssertionError as e:\n    print(e)\n# Creating a sample of data ",
+        "detail": "test_stats",
+        "documentation": {}
+    },
+    {
+        "label": "sample",
+        "kind": 5,
+        "importPath": "test_stats",
+        "description": "test_stats",
+        "peekOfCode": "sample = [2.74, 1.23, 2.63, 2.22, 3, 1.98] \n# tuple of a set of positive integers \n# numbers are spread apart but not very much \nsample1 = (1, 2, 5, 4, 8, 9, 12) \n# tuple of a set of negative integers \nsample2 = (-2, -4, -3, -1, -5, -6) \n# tuple of a set of positive and negative numbers \n# data-points are spread apart considerably  \nsample3 = (-9, -1, -0, 2, 1, 3, 4, 19) \nsample10 = [-14.82381293, -0.29423447, -13.56067979, -1.6288903, -0.31632439,",
+        "detail": "test_stats",
+        "documentation": {}
+    },
+    {
+        "label": "sample1",
+        "kind": 5,
+        "importPath": "test_stats",
+        "description": "test_stats",
+        "peekOfCode": "sample1 = (1, 2, 5, 4, 8, 9, 12) \n# tuple of a set of negative integers \nsample2 = (-2, -4, -3, -1, -5, -6) \n# tuple of a set of positive and negative numbers \n# data-points are spread apart considerably  \nsample3 = (-9, -1, -0, 2, 1, 3, 4, 19) \nsample10 = [-14.82381293, -0.29423447, -13.56067979, -1.6288903, -0.31632439,\n          0.53459687, -1.34069996, -1.61042692, -4.03220519, -0.24332097]\n# # Prints variance of the sample sets\n# print(\"Variance of sample set is % s\" ",
+        "detail": "test_stats",
+        "documentation": {}
+    },
+    {
+        "label": "sample2",
+        "kind": 5,
+        "importPath": "test_stats",
+        "description": "test_stats",
+        "peekOfCode": "sample2 = (-2, -4, -3, -1, -5, -6) \n# tuple of a set of positive and negative numbers \n# data-points are spread apart considerably  \nsample3 = (-9, -1, -0, 2, 1, 3, 4, 19) \nsample10 = [-14.82381293, -0.29423447, -13.56067979, -1.6288903, -0.31632439,\n          0.53459687, -1.34069996, -1.61042692, -4.03220519, -0.24332097]\n# # Prints variance of the sample sets\n# print(\"Variance of sample set is % s\" \n#       %(variance(sample))) \n# print(\"zvariance of sample set is \", zvariance(sample))",
+        "detail": "test_stats",
+        "documentation": {}
+    },
+    {
+        "label": "sample3",
+        "kind": 5,
+        "importPath": "test_stats",
+        "description": "test_stats",
+        "peekOfCode": "sample3 = (-9, -1, -0, 2, 1, 3, 4, 19) \nsample10 = [-14.82381293, -0.29423447, -13.56067979, -1.6288903, -0.31632439,\n          0.53459687, -1.34069996, -1.61042692, -4.03220519, -0.24332097]\n# # Prints variance of the sample sets\n# print(\"Variance of sample set is % s\" \n#       %(variance(sample))) \n# print(\"zvariance of sample set is \", zvariance(sample))\n# # Variance of sample set is 0.40924\n# print(\"\\nVariance of Sample1 is % s \" %(variance(sample1))) \n# print(\"sample1 zvar\", zvariance(sample1))",
+        "detail": "test_stats",
+        "documentation": {}
+    },
+    {
+        "label": "sample10",
+        "kind": 5,
+        "importPath": "test_stats",
+        "description": "test_stats",
+        "peekOfCode": "sample10 = [-14.82381293, -0.29423447, -13.56067979, -1.6288903, -0.31632439,\n          0.53459687, -1.34069996, -1.61042692, -4.03220519, -0.24332097]\n# # Prints variance of the sample sets\n# print(\"Variance of sample set is % s\" \n#       %(variance(sample))) \n# print(\"zvariance of sample set is \", zvariance(sample))\n# # Variance of sample set is 0.40924\n# print(\"\\nVariance of Sample1 is % s \" %(variance(sample1))) \n# print(\"sample1 zvar\", zvariance(sample1))\n# print(\"Variance of Sample2 is % s \" %(variance(sample2))) ",
+        "detail": "test_stats",
+        "documentation": {}
+    }
+]
